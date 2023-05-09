@@ -1,5 +1,1 @@
-<script type="text/javascript">
-            function showMessage() {
-                alert("Thank you");
-            }
-        </script>
+<button onclick="showAlert()">Thank you</button>
