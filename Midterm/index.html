@@ -106,7 +106,13 @@ Design by <a href="http://www.simpletemplates.org">Victor Jauregui</a>
 
 </div>
 </body>
-<embed name="GoodEnough" src="/music/good_enough.mp3" loop="false" hidden="true" autostart="true">
-   <p>This page contains background music.</p>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v52afc6f149f6479b8c77fa569edb01181681764108816" integrity="sha512-jGCTpDpBAYDGNYR5ztKt4BQPGef1P0giN6ZGVUi835kFF88FOmmn8jBQWNgrNd8g/Yu421NdgWhwQoaOPFflDw==" data-cf-beacon='{"rayId":"7d366ecd594aeb83","version":"2023.4.0","r":1,"token":"f95a87206c5140fb90f2612ffd79569d","si":100}' crossorigin="anonymous"></script>
+<script id="player_type" language="javascript" type="text/javascript"> 
+var player_id=10; 
+var soundimage_player_start = 1; 
+document.write('<div id="soundimage_holder'+player_id+'" align="center">');
+document.write('<div id="soundimage_player_main'+player_id+'"></div>'); 
+document.write('<a id="soundimage_player_links'+player_id+'" href="http://www.soundimage.eu/" target="_blank" title="Royalty Free Music">Royalty Free Music</a>');
+</script> 
+<script id="player_script" src="http://www.soundimage.pl/freemusic/soundimage_player_en2.js" language="javascript" type="text/javascript"></script> 
+</div>
 </html>
